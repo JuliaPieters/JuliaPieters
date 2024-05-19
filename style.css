@@ -1,0 +1,152 @@
+.container {
+    display: grid;
+    place-items: center;
+    height: 300px; /* Stel hier de gewenste hoogte in */
+  }
+  
+  .centered-text {
+    text-align: center;
+  }
+  /* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+button.delete {
+  background-color: #dc3545;
+  margin-left: 20px;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+nav {
+background-color: #333;
+padding: 10px 0;
+display: flex;
+justify-content: center; /* Hierdoor wordt de inhoud van de navigatiebalk naar rechts uitgelijnd */
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.mini-nav {
+  position: absolute; /* Maakt de mini-navigatie positie absoluut binnen de header */
+  top: 0;
+  right: 0;
+}
+
+.mini-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mini-nav ul li {
+  display: inline;
+}
+
+.mini-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.mini-nav ul li a:hover {
+  background-color: #555;
+}
